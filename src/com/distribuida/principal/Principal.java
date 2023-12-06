@@ -27,49 +27,49 @@ public class Principal {
 		
 		//CLIENTE
 		cliente.setIdCliente(1);
-		cliente.setCedula("1751286087");
-		cliente.setNombre("Dimas");
-		cliente.setApellido("Vera");
-		cliente.setDireccion("Quito, Buenavista");
-		cliente.setTelefono("098745632");
-		cliente.setCorreo("dimasv@hotmail.com");
+		cliente.setCedula("1755065974");
+		cliente.setNombre("Monica");
+		cliente.setApellido("Pinenla");
+		cliente.setDireccion("Quito, Checa");
+		cliente.setTelefono("0987200371");
+		cliente.setCorreo("monica2002paulina@gmail.com");
 		
 		//FACTURA
 		factura.setIdFactura(1);
 		factura.setNumFactura("001");
-		factura.setFecha("29/11/2023");
-		factura.setTotalNeto(17.85);
-		factura.setIva(1.12);
+		factura.setFecha("06/12/23");
+		factura.setTotalNeto(20);
+		factura.setIva(12);
 		factura.setTotal(factura.getTotalNeto()*factura.getIva());
 		
 		//LIBRO
 		libro.setIdLibro(1);
-		libro.setTitulo("OPIO EN LAS NUBES");
-		libro.setEditorial("Santillana");
-		libro.setNumPaginas(320);
+		libro.setTitulo("un mundo feliz");
+		libro.setEditorial("desconocido");
+		libro.setNumPaginas(256);
 		libro.setEdicion(2);
 		libro.setIdioma("Español");
-		libro.setFechaPublicacion("2010");
-		libro.setDescripcion("Es una novela que se basa en las experiencias y estilo de vida de un grupo de adictos a las drogas y fiestas");
+		libro.setFechaPublicacion("2013");
+		libro.setDescripcion("");
 		libro.setNumEjemplares(400);
 		libro.setPortada("Original");
-		libro.setPresentacion("La historia es contada por tres narradores en un mundo paralelo que recrea la fantasía de una época surrealista enmarcada en una ciudad tan propia como la Bogotá de esos años");
+		libro.setPresentacion("");
 		libro.setPrecio(15.75);
 		
 		
 		//CATEGORIA
 		categoria.setIdCategoria(1);
 		categoria.setCategoria("Aventura");
-		categoria.setDescripcion("Opio en las nubes");
+		categoria.setDescripcion("un mundo feliz");
 		
 		//AUTOR
 		autor.setIdAutor(1);
-		autor.setNombre("Rafael2");
-		autor.setApellido("Chaparro Madiedo");
-		autor.setPais("Colombia");
-		autor.setDireccion("Bogota");
-		autor.setTelefono("56793");
-		autor.setCorreo("MadiedoCha@hotmail.com");
+		autor.setNombre("Aldous Leonard  ");
+		autor.setApellido("Huxley");
+		autor.setPais("	Británica");
+		autor.setDireccion("s/n");
+		autor.setTelefono("07845");
+		autor.setCorreo("aldous22@hotmail.com");
 		
 		
 		//IMPRIMIR
